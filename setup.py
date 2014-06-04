@@ -13,7 +13,7 @@ setup(
     name='django-i18n-sitemap',
     description='Adds the possibility to have i18n urls in your sitemap',
     version='0.1',
-    long_description=read('README.md'),
+    long_description=read('README.rst'),
     packages=['i18nsitemap'],
     author='Luan Pablo',
     author_email='luan@tracy.com.br',
