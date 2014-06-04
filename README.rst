@@ -4,15 +4,17 @@ django-i18n-sitemap
 Usage
 -----
 
-Add `i18nsitemap` to your `INSTALLED_APPS`
+Add ``i18nsitemap`` to your ``INSTALLED_APPS``
 
 In your Sitemap class who supports i18n inherit from i18nsitemap.I18nSitemap instead from django.
 
-Set `i18n = True`
+Set ``i18n = True``
 
-That's it. And there is no problem on using `I18nSitemap` on any Sitemap class, no needs to add or remove anything.
+That's it. And there is no problem on using ``I18nSitemap`` on any Sitemap class, no needs to add or remove anything.
 
-Here it follows an example:
+Here it follows an example
+
+::
 
     class BlogSitemap(I18nSitemap):
         changefreq = "never"
